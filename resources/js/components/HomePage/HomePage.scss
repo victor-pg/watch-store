@@ -1,0 +1,32 @@
+@import "../../../css/vars.scss";
+
+.home-page{
+    height: 90vh;
+    background-image: url("../../../../public/img/carousel2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    h3{
+        font-family: "Dancing Script",cursive;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 40px;
+        color:white;
+        letter-spacing: 4px;
+
+        button{
+            background-color: #1f1f1f;
+            color:white;
+            font-size: 20px;
+            padding:5px 10px;
+            border-radius: 5px;
+            font-family: "Roboto Mono";
+        }
+        button:hover{
+            color:lightgreen;
+        }
+    }
+}

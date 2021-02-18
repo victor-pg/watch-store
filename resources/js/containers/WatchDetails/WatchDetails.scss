@@ -1,0 +1,22 @@
+.watch-details{
+    margin:30px 0;
+    text-align: center;
+    animation: fade 2s;
+
+    h3{
+        font-family: "Dancing Script",cursive;
+        font-size: 50px;
+    }
+    p{
+        font-family: 'Roboto Mono';
+    }
+    img{
+        width: 50%;
+        object-fit: scale-down;
+    }
+}
+
+@keyframes fade{
+    from{ opacity: 0; }
+    to{ opacity: 1; }
+}

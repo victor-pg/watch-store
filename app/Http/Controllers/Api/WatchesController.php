@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 class WatchesController extends Controller
 {
+
     public function getWatches(){
         $watches = DB::table('watches')->get();
         if($watches) return $watches;

@@ -1,0 +1,41 @@
+.watch-item {
+    margin: 10px;
+    margin-top: 30px;
+    position: relative;
+
+    h3 {
+        height: 30px;
+    }
+
+    img {
+        width: 20vw;
+        object-fit: scale-down;
+    }
+
+    p {
+        width: 100%;
+        height: 50px;
+    }
+
+    a {
+        width: 100%;
+        height: 50px;
+
+        button {
+            background-color: #1f1f1f;
+            width: 100%;
+            color: white;
+            &:hover {
+                color: lightgreen;
+            }
+        }
+    }
+    .add-to-cart-button{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 5%;
+        right: 5%;
+        cursor:pointer;
+    }
+}
