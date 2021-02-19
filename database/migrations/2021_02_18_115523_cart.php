@@ -14,7 +14,13 @@ class Cart extends Migration
     public function up()
     {
         Schema::create('cart', function (Blueprint $table) {
-            $table->increments('id',11);
+            $table->increments('id', 11);
+            $table->string('title', 50);
+            $table->string('description', 250);
+            $table->text('text');
+            $table->integer('price')->length(10)->unsigned();
+            $table->string('img', 250);
+            $table->timestamps();
         });
     }
 

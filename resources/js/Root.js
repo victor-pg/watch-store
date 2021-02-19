@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import HomePage from './components/HomePage/HomePage';
 import WatchesPage from './containers/WatchesPage/WatchesPage';
 import WatchDetails from './containers/WatchDetails/WatchDetails';
+import CartPage from './containers/CartPage/CartPage'
 
 const Root = () => {
     return (
@@ -14,7 +15,7 @@ const Root = () => {
                 <Route path="/" exact component={HomePage} />
                 <Route path="/watches" component={WatchesPage} />
                 <Route path="/watch/:id" component={({match})=><WatchDetails id={match.params.id} />} />
-                <Route path="/cart" component={() => <h1>Cart</h1>} />
+                <Route path="/cart" component={CartPage} />
             </Switch>
         </BrowserRouter>
     );

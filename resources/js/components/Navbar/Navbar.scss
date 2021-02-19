@@ -21,6 +21,11 @@ nav {
                 text-decoration: none;
                 // color:black;
                 color:white;
+
+                &:hover{
+                    color:lightgreen;
+                    text-decoration: none;
+                }
             }
         }
     }
