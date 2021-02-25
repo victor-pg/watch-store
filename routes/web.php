@@ -21,3 +21,8 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::view('/{path?}', 'app');
+Route::get('/home/add',[App\Http\Controllers\HomeController::class, 'add']);
+Route::post('/home/add',[App\Http\Controllers\HomeController::class, 'save']);
+Route::get('/home/edit/{id}',[App\Http\Controllers\HomeController::class, 'edit']);
+Route::post('/home/edit/{id}',[App\Http\Controllers\HomeController::class, 'editSave']);
+Route::post('/home/delete/{id}',[App\Http\Controllers\HomeController::class, 'delete']);

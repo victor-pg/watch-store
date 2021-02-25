@@ -2187,7 +2187,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Navbar = function Navbar() {
+var Navbar = function Navbar(_ref) {
+  var loggedIn = _ref.loggedIn;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
@@ -7061,7 +7062,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "nav {\n  width: 100%;\n  height: 10vh;\n  background-color: #1f1f1f;\n  font-family: \"Roboto Mono\", monospace;\n}\nnav ul {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  list-style-type: none;\n}\nnav ul li a {\n  text-decoration: none;\n  color: white;\n}\nnav ul li a:hover {\n  color: lightgreen;\n  text-decoration: none;\n}\n\n.transparent {\n  background-color: none;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "nav {\n  width: 100%;\n  height: 10vh;\n  background-color: #1f1f1f;\n  font-family: \"Roboto Mono\", monospace;\n}\nnav ul {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  list-style-type: none;\n}\nnav ul li a {\n  text-decoration: none;\n  color: white;\n}\nnav ul li a:hover {\n  color: lightgreen;\n  text-decoration: none;\n}\nnav ul .username {\n  color: lightgreen;\n}\n\n.transparent {\n  background-color: none;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

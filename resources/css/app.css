@@ -1,0 +1,23 @@
+.dashboard-navbar{
+    width: 100% !important;
+    height: 10vh !important;
+    background-color: #1f1f1f !important;
+    font-family: 'Roboto Mono', monospace !important;
+    color:white !important;
+}
+.dashboard-username{
+    font-size: 25px !important;
+    color:tomato !important;       
+}
+.dashboard-logout{
+    color:white !important;
+}
+.bg-nav{
+    background-color: #1f1f1f !important;
+}
+.dashboard-image{
+    width:100% !important;
+}
+*{
+    background-color: red !important;
+}
